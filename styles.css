@@ -1,22 +1,44 @@
+/*Existing class updates*/
 body{
     background-color: beige !important;
+    padding-bottom: 30px;
 }
 
-.header{
-    position: absolute;
+img{
     width: 100%;
-    height: 100px;
-    display: block;
-    background-color: black;
+    max-width: 400px;
 }
 
-p{
+h1{
+    font-size: 50px !important;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.display-3{
-    color: white;
-    text-align: center;
+h3{
+    padding-top: 8px;
+}
+
+/*Custom classes*/
+.card-img-fixed {
+  width: 100%;           
+  height: 200px;         
+  object-fit: cover;     
+}
+
+.custom_mainheading{
+    padding-top: 25px;
+}
+
+.display-6{
+    text-decoration-line: underline;
+}
+
+.custom{
+    font-size: 20px;
+}
+
+.custom_paragraph{
+    border-style: solid;
 }
