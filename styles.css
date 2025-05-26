@@ -1,6 +1,6 @@
 /*Existing class updates*/
 body{
-    background-color: beige !important;
+    background-color: lightgrey !important;
     padding-bottom: 30px;
 }
 
@@ -16,6 +16,10 @@ h1{
     text-align: center;
 }
 
+h2{
+    padding-bottom: 8px;
+}
+
 h3{
     padding-top: 8px;
 }
@@ -27,12 +31,12 @@ h3{
   object-fit: cover;     
 }
 
-.custom_mainheading{
-    padding-top: 25px;
+.card-body{
+    background-color: #F0F8FF;
 }
 
-.display-6{
-    text-decoration-line: underline;
+.custom_mainheading{
+    padding-top: 25px;
 }
 
 .custom{
